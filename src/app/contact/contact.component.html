@@ -1,0 +1,40 @@
+<section>
+    <div class="contact  vh-100 ">
+        <div class="container py-1">
+            <div class="text-white text-center">
+                <h2 class="h1 text-uppercase">conatct section</h2>
+                <div class="d-flex justify-content-center align-items-center mb-3">
+                    <div class="line me-3 "></div>
+                    <i class="fa-solid fa-star "></i>
+                    <div class="line ms-3 "></div>
+
+                </div>
+            </div>
+            <form action="" class="formContain mx-auto mt-5">
+                @if(inputValueName){
+                <label for="userName" class="action">userName :</label>
+                }
+
+                <input [(ngModel)]="inputValueName" type="text" id="userName" name="Username" placeholder="userName"
+                    class="form-control border-0 border-bottom py-4 ">
+                @if(inputValueAge){
+                <label for="userAge" class="action">userAge :</label>
+                }
+                <input [(ngModel)]="inputValueAge" type="text" id="userAge" name="UserAge" placeholder="userAge"
+                    class="form-control border-0 border-bottom py-4 ">
+                @if(inpuValueEmail){
+                    <label for="userEmail" class="action">userEmail :</label>
+                }
+                <input [(ngModel)]="inpuValueEmail" type="email" id="userEmail" name="UserEmail" placeholder="userEmail"
+                    class="form-control border-0 border-bottom py-4 ">
+                @if(inpuValuePassword){
+                    <label for="userPasword" class="action">userPassword :</label>
+                }
+                <input [(ngModel)]="inpuValuePassword" type="password" id="userPasword" name="UserPasword" placeholder="userPassword"
+                    class="form-control border-0 border-bottom py-4 ">
+                <button class="btn my-3 text-white">send Massage</button>
+            </form>
+
+        </div>
+    </div>
+</section>

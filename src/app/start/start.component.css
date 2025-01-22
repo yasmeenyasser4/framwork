@@ -1,0 +1,23 @@
+.start{
+    background-color: #1ABC9C;
+ 
+}
+.line{
+    height: 4px;
+    width: 80px;
+}
+.avatar{
+   width: 50%;
+}
+.containStart{
+    transform: translateY(40%);
+}
+
+@media (min-width: 768px) { 
+
+    .avatar{
+       
+        width: 20%;
+        
+    }
+ }

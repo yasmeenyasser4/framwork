@@ -1,0 +1,25 @@
+.about{
+    background-color: #1ABC9C;
+    position: relative;
+}
+.line{
+    height: 4px;
+    width: 80px;
+}
+.textAbout{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-40%);
+    
+   
+}
+@media (min-width: 768px) { 
+
+    .textAbout{
+       
+        transform: translate(-50%);
+        
+    }
+ }

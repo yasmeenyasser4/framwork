@@ -1,0 +1,40 @@
+.line{
+    height: 4px;
+    width: 80px;
+    background-color: 
+    rgb(44, 62, 80);
+}
+i{
+    color: 
+    rgb(44, 62, 80);
+}
+h2{
+    color: 
+    rgb(44, 62, 80);
+}
+.portfolio{
+    padding-top: 155px;
+    background-color: white;
+}
+.inner{
+
+}
+.layer{
+    background-color: #1abc9ce6;
+    opacity: 0;
+    cursor: pointer;
+    transition: .6s opacity;
+}
+.item:hover .layer{
+    opacity: 1;
+
+}
+/* .lightBoxItem{
+    width: 50%;
+    height: 50vh;
+   
+} */
+.lightBoxImg{
+    width: 600px;
+
+}

@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #2C3E50;
+    z-index: 999;
+
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.nav-item {
+font-weight: 700;
+
+}
+.active{
+    background-color: #1ABC9C ;
+}

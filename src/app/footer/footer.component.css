@@ -1,0 +1,20 @@
+.footer{
+    padding: 2.5rem;
+    background-color: #2c3e50;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+   padding: 2px;
+    border: 1px white solid;
+    border-radius: 50%;
+    margin: 0px 5px;
+  
+}
+.miniFooter{
+    background-color: #0D1217;
+    padding: 10px 0px;
+}
